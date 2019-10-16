@@ -11,7 +11,7 @@
 #define READ_SAMPLE_TIMES 5     //define the time interal(in milisecond) between each samples in 
                                                      //normal operation
 #define GAS_H2 0
-int a1
+int a1;
 float H2Curve[3] = {2.3, 0.93,-1.44};    //two points are taken from the curve in datasheet. 
                                                      //with these two points, a line is formed which is "approximately equivalent" 
                                                      //to the original curve. 
